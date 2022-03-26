@@ -81,11 +81,9 @@ function App() {
       >
         <div className="game">
           <Board />
-          <div className="container">
+          <div className="container pt-5">
             <div className="row">
-              <div className="col-sm-12">
-                <Keyboard />
-              </div>
+              <Keyboard />
             </div>
           </div>
         </div>
