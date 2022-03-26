@@ -43,7 +43,7 @@ function Keyboard() {
 
   const keys1 = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"];
   const keys2 = ["A", "S", "D", "F", "G", "H", "J", "K", "L"];
-  const keys3 = ["Z", "X", "C", "V", "B", "B", "N", "M"];
+  const keys3 = ["Z", "X", "C", "V", "B", "N", "M"];
 
   // Make the key dark gray if the letter is used on baby.
   return (
