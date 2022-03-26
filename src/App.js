@@ -5,6 +5,7 @@ import wordBank from "./wordbank";
 import { createContext, useState, useEffect } from "react";
 import { boardDefault } from "./Words";
 import { getRandomWord } from "./Words";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export const AppContent = createContext();
 
@@ -79,8 +80,18 @@ function App() {
         }}
       >
         <div className="game">
-          <Board />
-          <Keyboard />
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12 offset-4">
+                <Board />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-sm-8 offset-3">
+                <Keyboard />
+              </div>
+            </div>
+          </div>
         </div>
       </AppContent.Provider>
     </div>
