@@ -130,3 +130,37 @@ nav h1 {
 #black {
   background-color: #3a393c;
 }
+
+@media (min-width: 100px) and (max-width: 800px) {
+  .board {
+    width: 375px;
+    height: 475px;
+  }
+
+  .keyboard {
+    width: 365px;
+  }
+  .line1 {
+    margin: 0;
+  }
+  .line2 {
+    margin: 0;
+  }
+  .line3 {
+    margin: 0;
+  }
+
+  .key {
+    width: 50px;
+    height: 51px;
+    margin: 4px;
+    border-radius: 4px;
+    display: grid;
+    place-items: center;
+    font-size: 15px;
+    background-color: grey;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+}

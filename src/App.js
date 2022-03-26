@@ -80,14 +80,10 @@ function App() {
         }}
       >
         <div className="game">
+          <Board />
           <div className="container">
             <div className="row">
-              <div className="col-sm-12 offset-4">
-                <Board />
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-sm-8 offset-3">
+              <div className="col-sm-12">
                 <Keyboard />
               </div>
             </div>
